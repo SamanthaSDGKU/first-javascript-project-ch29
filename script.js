@@ -20,3 +20,14 @@ document.writeln(`<p>The users name is: ${userName}, and the age is ${userAge}</
 const taxes= 11; 
 document.writeln(taxes);
 
+let clientName="Someone";
+let clientEmail="someone@gmail.com";
+let monthlySalary=2000;
+let yearlySalary=monthlySalary*12;
+
+
+document.write(`
+    <p> Name: ${clientName}</p>
+    <p> Email: ${clientEmail}</p>
+    <p> Salary (Yearly): ${yearlySalary}</p>
+`);
